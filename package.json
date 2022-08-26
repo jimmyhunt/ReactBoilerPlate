@@ -4,6 +4,8 @@
   "description": "Read me...",
   "main": "index.js",
   "scripts": {
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jim Hunt",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/jimmyhunt/ReactBoilerPlate/issues"
   },
-  "homepage": "https://github.com/jimmyhunt/ReactBoilerPlate#readme"
+  "homepage": "https://github.com/jimmyhunt/ReactBoilerPlate#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }
