@@ -1,11 +1,19 @@
 {
   "name": "reactboilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Read me...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jim Hunt",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmyhunt/ReactBoilerPlate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jimmyhunt/ReactBoilerPlate/issues"
+  },
+  "homepage": "https://github.com/jimmyhunt/ReactBoilerPlate#readme"
 }
